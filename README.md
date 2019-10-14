@@ -142,14 +142,14 @@ Now one highly requested feature from `Follower`s using your app that you plan t
 
 A highly requested feature from `Cult`s using your app that you plan to paywall ($$$) is to restrict ages for recruits. See if you can implement this functionality.
 
-* `Cult#minimum_age`
+* √`Cult#minimum_age`
   * returns a `Fixnum` that is the minimum age required for followers joining this cult
-* `Cult#recruit_follower`
+* √`Cult#recruit_follower`
   * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
   * NOW this is changed such that if the given `Follower` instance is not of age:
     * do not let them join the cult
     * print out a friendly message informing them that they are too young
-* `Follower#join_cult`
+* √`Follower#join_cult`
   * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
   * NOW this is changed such that if you don't meet the minimum age requirement of the given `Cult` instance:
     * do not let them join the cult
